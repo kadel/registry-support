@@ -21,7 +21,7 @@ import (
 
     a. Get the index of devfile registry for various devfile types
     ```
-    registryIndex, err := registryLibrary.GetRegistryIndex(registry, StackDevfileType, SampleDevfileType)
+    registryIndex, err := registryLibrary.GetRegistryIndex(registry, false, "", StackDevfileType, SampleDevfileType)
 	if err != nil {
 		return err
 	}
